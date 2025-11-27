@@ -1,5 +1,6 @@
 import React from "react";
 import { Router } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
@@ -78,7 +79,7 @@ const LoginPage = () => {
             href="#"
             class="font-semibold text-indigo-400 hover:text-indigo-300"
           >
-            Start a 14 day free trial
+            <Link to="/register">Register</Link>
           </a>
         </p>
       </div>

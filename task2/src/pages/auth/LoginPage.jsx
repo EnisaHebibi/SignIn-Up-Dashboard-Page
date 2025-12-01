@@ -4,7 +4,7 @@ import LoginForm from "../../components/shared/auth/LoginForm";
 
 const LoginPage = () => {
   return (
-    <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+    <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 ">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <LogIn className="mx-auto h-10 w-auto text-black" />
 
@@ -19,7 +19,7 @@ const LoginPage = () => {
         <p className="mt-10 text-center text-sm text-gray-400">
           Not a member?{" "}
           <Link
-            className="font-semibold text-indigo-400 hover:text-indigo-300"
+            className="font-semibold text-amber-700 hover:text-amber-400"
             to="/register"
           >
             Register

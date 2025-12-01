@@ -21,7 +21,7 @@ const RegisterPage = () => {
           Having an account?{" "}
           <Link
             to="/login"
-            className="font-semibold text-indigo-400 hover:text-indigo-300"
+            className="font-semibold text-amber-700 hover:text-amber-400"
           >
             Log In
           </Link>
